@@ -16,4 +16,5 @@ for i in input_lst:
 
 sum_lst.sort()
 top_three = sum_lst[-1] + sum_lst[-2] + sum_lst[-3]
+print(f"max sum: {sum_lst[-1]}")
 print(f"top 3 sum: {top_three}")
